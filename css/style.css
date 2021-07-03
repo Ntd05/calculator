@@ -1,0 +1,102 @@
+
+header{
+    background-image: url("/css/background.png");
+    height: 546px;
+    width: 100%;
+}
+.calculation {
+    height: 50px;
+    width: 350px;
+    background-color: white;
+    position: relative;
+    top: 55px;
+    left: 460px;
+    text-align: right;
+    font: normal 18px/50px Arial;
+
+}
+.show {
+    text-align: right;
+    font: normal 30px/100px Arial;
+    height: 90px;
+    width: 350px;
+    background-color: white;
+    position: relative;
+    top: 60px;
+    left: 460px;
+    border: 1px solid #c8e0c8;
+
+}
+.frames {
+    height: 280px;
+    width: 350px;
+    background-color: white;
+    position: relative;
+    top: 70px;
+    left: 460px;
+}
+.frames > div {
+    display:flex;
+    direction: rtl;
+    
+}
+.frames >div >div {
+    font: normal 14px/40px Arial;
+    text-align: center;
+    font-size: 18px;
+}
+.btn{
+    
+    height: 40px;
+    width: 85px;
+    margin: 2px;
+    border:1px solid #c8e0c8;
+    background-color: inherit;
+    cursor: pointer;
+    display: inline-block;
+}
+.dacbiet {
+    height: 40px;
+    width: 85px;
+    margin: 2px;
+    border:1px solid #c8e0c8;
+    background-color: #cce2cc;
+}
+.xoa {
+    height: 40px;
+    width: 85px;
+    margin: 2px;
+    border:1px solid #c8e0c8;
+    background-color: rgb(189, 110, 110);
+}
+.num {
+    height: 40px;
+    width: 85px;
+    margin: 2px;
+    border:1px solid #c8e0c8;
+}
+.dau {
+    height: 40px;
+    width: 85px;
+    margin: 2px;
+    border:1px solid #c8e0c8;
+    background-color: #93b993;
+}
+.bang {
+    height: 40px;
+    width: 175px;
+    margin: 2px;
+    border:1px solid #c8e0c8;
+    background-color: #5f9e5f;
+}
+.btn:hover{
+    background-color: rgb(211, 243, 215);
+}
+textarea {
+    height: 80px;
+    width: 340px;
+    background-color: rgb(175, 69, 69);
+    position: relative;
+    top: 60px;
+    left: 460px;
+}

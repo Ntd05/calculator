@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Ntd</title>
+        <script type="text/javascript"></script>
+        <script src="../js/main.js"></script>
+        <link rel="stylesheet" type="text/css" href="../css/style.css">   
+        <link rel="icon" href="icon.png">
+    </head>
+    <body>
+        <header>
+        <div class="calculation"  id="result">
+        </div>
+        <div class="show" id="showText">
+        </div>
+        <div class="frames">
+            <div>
+                <div class="btn xoa" id ="xoatat" onclick="DeleteAll()">
+                    <div>CA</div>
+                </div>
+                <div class="btn xoa" id ="xoa1phan" onclick="DeleteElement()">
+                    <div>←</div>
+                </div>
+                <div class="btn dacbiet" id="ngoacphai" onclick="getText(this.innerText)">
+                    <div>(</div>
+                </div>
+                <div class="btn dacbiet" id="ngoactrai" onclick="getText(this.innerText)">
+                    <div>)</div>
+                </div>
+                
+            </div>
+            <div>
+                <div class="btn dau" id ="chia" onclick="getText(this.innerText)">
+                    <div>÷</div>
+                </div>
+                <div class="btn dacbiet" id ="phantram" onclick="Rate()">
+                    <div>%</div>
+                </div>
+                <div class="btn dacbiet" id="can">
+                    <div>√</div>
+                </div>
+                <div class="btn dacbiet" id="binhphuong">
+                    <div>x <up>2</sup></div >
+                </div>
+            </div>
+            <div>
+                <div class="btn dau" id ="nhan" onclick="getText(this.innerText)">
+                    <div>×</div>
+                </div>
+                <div class="btn num" id ="09" onclick="getText(this.innerText)">
+                    <div>9</div>
+                </div>
+                <div class="btn num" id="08" onclick="getText(this.innerText)">
+                    <div>8</div>
+                </div>
+                <div class="btn num" id="07" onclick="getText(this.innerText)">
+                    <div>7</div>
+                </div>
+            </div>
+            <div>
+                <div class="btn dau" id ="tru" onclick="getText(this.innerText)">
+                    <div>-</div>
+                </div>
+                <div class="btn num" id ="06" onclick="getText(this.innerText)">
+                    <div>6</div>
+                </div>
+                <div class="btn num" id="05" onclick="getText(this.innerText)">
+                    <div>5</div>
+                </div>
+                <div class="btn num" id="04" onclick="getText(this.innerText)">
+                    <div>4</div>
+                </div>
+            </div>
+            <div>
+                <div class="btn dau" id ="+" onclick="getText(this.innerText)">
+                    <div>+</div>
+                </div>
+                <div class="btn num" id ="03" onclick="getText(this.innerText)">
+                    <div>3</div>
+                </div>
+                <div class="btn num" id="02" onclick="getText(this.innerText)">
+                    <div>2</div>
+                </div>
+                <div class="btn num" id="01" onclick="getText(this.innerText)">
+                    <div>1</div>
+                </div>
+            </div>
+            <div>
+                <div class="btn bang" id ="ketqua" onclick ="getResult()">
+                    <div>=</div>
+                </div>
+                <div class="btn" id="phay" onclick="getText(this.innerText)">
+                    <div>.</div>
+                </div>
+                <div class="btn num" id="00" onclick="getText(this.innerText)">
+                    <div>0</div>
+                </div>
+            </div>
+
+        </div>
+            
+        </header>
+        
+
+    </body>
+</html>
